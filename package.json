@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "docker-start": "clear && docker-compose up -d --build",
+        "docker-stop": "clear && docker-compose down",
+        "docker-terminal": "clear && docker exec -it frankenphp bash"
+    }
+}
